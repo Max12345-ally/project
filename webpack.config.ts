@@ -6,9 +6,12 @@ module.exports = {
     mode: "development",
     entry: path.resolve(__dirname, 'src', 'index.ts'),
     output: {
-        filename: "bundle.js",
+        filename: "[name].[contenthash].js ",
         path: path.resolve(__dirname, 'build'),
+        clean: true,
     },
+
+
     plugins: [
         new HTMLWebpackPlugin({
             template: path.resolve(__dirname, 'public', 'index.html')
