@@ -1,0 +1,14 @@
+/******/ (() => { // webpackBootstrap
+/******/ 	"use strict";
+
+;// ./src/test.ts
+function someFn() {
+    console.log("RANDOM");
+}
+
+;// ./src/index.ts
+
+someFn();
+
+/******/ })()
+;
