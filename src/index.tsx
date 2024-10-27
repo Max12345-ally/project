@@ -1,0 +1,8 @@
+import {render} from "react-dom";
+
+
+render(
+    <div>hello</div>,
+    document.getElementById('root')
+)
+
