@@ -1,11 +1,59 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
-<script defer src="%5Bpath%5D.e892559b66152d97fa0e.js"></script></head>
-<body>
-    <div class="root"></div>
-</body>
-</html>
+<head><script defer src="%5Bpath%5D.e892559b66152d97fa0e.js"></script></head>Html Webpack Plugin:
+<pre>
+  Error: Child compilation failed:
+  Module not found: Error: Can't resolve '/Users/mymac/projects/private/project/config/build/public/ind  ex.html' in '/Users/mymac/projects/private/project'
+  ModuleNotFoundError: Module not found: Error: Can't resolve '/Users/mymac/projects/private/project/co  nfig/build/public/index.html' in '/Users/mymac/projects/private/project'
+      at /Users/mymac/projects/private/project/node_modules/webpack/lib/Compilation.js:2109:28
+      at /Users/mymac/projects/private/project/node_modules/webpack/lib/NormalModuleFactory.js:908:13
+      at eval (eval at create (/Users/mymac/projects/private/project/node_modules/tapable/lib/HookCodeF  actory.js:33:10), <anonymous>:10:1)
+      at /Users/mymac/projects/private/project/node_modules/webpack/lib/NormalModuleFactory.js:333:22
+      at eval (eval at create (/Users/mymac/projects/private/project/node_modules/tapable/lib/HookCodeF  actory.js:33:10), <anonymous>:9:1)
+      at /Users/mymac/projects/private/project/node_modules/webpack/lib/NormalModuleFactory.js:512:22
+      at /Users/mymac/projects/private/project/node_modules/webpack/lib/NormalModuleFactory.js:154:10
+      at /Users/mymac/projects/private/project/node_modules/webpack/lib/NormalModuleFactory.js:775:25
+      at /Users/mymac/projects/private/project/node_modules/webpack/lib/NormalModuleFactory.js:992:8
+      at /Users/mymac/projects/private/project/node_modules/webpack/lib/NormalModuleFactory.js:1121:5
+  
+  - Compilation.js:2109 
+    [project]/[webpack]/lib/Compilation.js:2109:28
+  
+  - NormalModuleFactory.js:908 
+    [project]/[webpack]/lib/NormalModuleFactory.js:908:13
+  
+  
+  - NormalModuleFactory.js:333 
+    [project]/[webpack]/lib/NormalModuleFactory.js:333:22
+  
+  
+  - NormalModuleFactory.js:512 
+    [project]/[webpack]/lib/NormalModuleFactory.js:512:22
+  
+  - NormalModuleFactory.js:154 
+    [project]/[webpack]/lib/NormalModuleFactory.js:154:10
+  
+  - NormalModuleFactory.js:775 
+    [project]/[webpack]/lib/NormalModuleFactory.js:775:25
+  
+  - NormalModuleFactory.js:992 
+    [project]/[webpack]/lib/NormalModuleFactory.js:992:8
+  
+  - NormalModuleFactory.js:1121 
+    [project]/[webpack]/lib/NormalModuleFactory.js:1121:5
+  
+  - child-compiler.js:174 
+    [project]/[html-webpack-plugin]/lib/child-compiler.js:174:18
+  
+  - Compiler.js:627 finalCallback
+    [project]/[webpack]/lib/Compiler.js:627:5
+  
+  - Compiler.js:662 
+    [project]/[webpack]/lib/Compiler.js:662:11
+  
+  - Compiler.js:1348 
+    [project]/[webpack]/lib/Compiler.js:1348:17
+  
+  
+  - task_queues:105 processTicksAndRejections
+    node:internal/process/task_queues:105:5
+  
+</pre>
