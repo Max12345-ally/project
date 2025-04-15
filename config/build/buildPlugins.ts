@@ -2,6 +2,9 @@ import HtmlWebpackPlugin from "html-webpack-plugin";
 import path from "path";
 import webpack from "webpack";
 
+/11111
+
+
 export function buildPlugins(): webpack.WebpackPluginInstance[] {
 
     return [
